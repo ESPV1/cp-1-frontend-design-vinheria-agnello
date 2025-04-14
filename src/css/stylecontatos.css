@@ -116,3 +116,25 @@ p {
     height: auto; 
 }
 
+/* MAPA*/
+
+#txt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 10px 20px 10px;
+}
+#mapa{
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+.rotas{
+    display: block;
+    width: 30%;
+    padding: 20px 10px 20px 10px;
+}
+.rotas input{
+    margin: 20px 10px 20px 10px;
+}
+
