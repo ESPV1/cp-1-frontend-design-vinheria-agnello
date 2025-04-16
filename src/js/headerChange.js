@@ -17,7 +17,7 @@ export function headerChange() {
             }
         }, {
         root: null,
-        rootMargin: '0px 0px -550px 0px',
+        rootMargin: '0px 0px -670px 0px',
         threshold: 0
     }
     );

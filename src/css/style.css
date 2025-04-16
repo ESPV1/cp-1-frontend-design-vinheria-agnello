@@ -34,6 +34,10 @@ html { scroll-behavior: auto; }
 
 ::-webkit-scrollbar-thumb:hover { background-color: var(--extra-light-whine); }
 
+/* BACKGROUND DO BODY */
+
+body { background-color: var(--off-white); }
+
 /* ESTILIZAÇÃO DO HEADER/NAVBAR */
 
 header {
