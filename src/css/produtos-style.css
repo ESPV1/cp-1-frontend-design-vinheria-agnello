@@ -36,3 +36,8 @@
 .produtos-text-holder span{
     font-size: 15px;
 }
+.produtos-tabela-holder{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
