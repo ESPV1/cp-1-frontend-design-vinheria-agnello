@@ -28,16 +28,25 @@ O site atualmente só pode ser visto utilizando a integração do **Github Pages
 * Software de Design de Telas: Figma
 
 ## 📄 Páginas
-### Home
-Página inicial da vinheria contendo informações básicas sobre vinhos e com links de redirecionamento para outras partes do site.
-### Produtos
-Página de Produtos com foco em mostrar os produtos que a loja possui, porém sem nenhuma interação além de cards com nome e detalhes do produto.
-### Galeria
-Página de Galeria contendo vídeos e fotos sobre a vinícola e vinícolas.
-### Contato
-Página de Contato contendo horário de atendimento e meios de contato com a loja.
-### Trabalhe Conosco
-Página de Trabalhe Conosco com informações sobre o interesse da vaga e um formulário não funcional para ser preenchido com informações do interessado.
+## Home
+![Home Image](./src/assets/images/index_agnello.PNG)
+*Página inicial da vinheria contendo informações básicas sobre vinhos e com links de redirecionamento para outras partes do site.*
+
+## Produtos
+![Produtos Image](./src/assets/images/produtos_agnello.PNG)
+*Página de Produtos com foco em mostrar os produtos que a loja possui, porém sem nenhuma interação além de cards com nome e detalhes do produto.*
+
+## Galeria
+![Galeria Image](./src/assets/images/galeria_agnello.PNG)
+*Página de Galeria contendo vídeos e fotos sobre a vinícola e vinhos.*
+
+## Contato
+![Contato Image](./src/assets/images/contato_agnello.PNG)
+*Página de Contato contendo horário de atendimento e meios de contato com a loja.*
+
+## Trabalhe Conosco
+![Trabalhe Conosco Image](./src/assets/images/trabalhe_conosco_agnello.PNG)
+*Página de Trabalhe Conosco com informações sobre o interesse da vaga e um formulário não funcional para ser preenchido com informações do interessado.*
 
 ## 🧑‍💻 Equipe
 <table>
