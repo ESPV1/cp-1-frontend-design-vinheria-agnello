@@ -18,7 +18,7 @@ Para esta primeira etapa, a solução para o problema do Sr. Giulio será a cria
 * Contato
 
 ## 🔗 Como acessar o site
-O site atualmente só pode ser visto utilizando a integração do **Github Pages**, seguindo este link: --LINK-- .Fique à vontade para clonar o repositório ou fazer um fork e analisar mais detalhes utilizando a integração do *Live Server* (Visual Studio Code).
+O site atualmente só pode ser visto utilizando a integração do **Github Pages**, seguindo este link: https://espv1.github.io/cp-1-frontend-design-vinheria-agnello/ .Fique à vontade para clonar o repositório ou fazer um fork e analisar mais detalhes utilizando a integração do *Live Server* (Visual Studio Code).
 
 ## 🧰 Tecnologias Utilizadas
 * Linguagem de Marcação: HTML5
