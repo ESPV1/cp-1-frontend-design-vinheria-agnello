@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+:root {
+    /* Cores principais */
+    --dark-wine: #4A1C2A;
+    --light-whine: #761B3E;
+    --off-white: #FFF4EB;
+    --black: #1C1C1C;
+
+    /* Fontes */
+    --playfair: 'Playfair'
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+header {
+    width: 100%;
+    height: 7vw;
+    background-color: white;
+    padding: 0  7%;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+
+#logo-header {
+    display: inline-block;
+    width: 18%;
+    vertical-align: middle;
+}
+
+nav {
+    width: calc(100% - 18.5%);;
+    display: inline-block;
+    height: 100%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    height: 100%;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3vw;
+    line-height: 7vw;
+}
+
+nav ul li:first-of-type{
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6vw;
+    transition: .2s ease-in;
+    font-family: var(--playfair), sans-serif;
+}
+
+nav ul li a:hover{
+    opacity: 0.8;
+}
+
+main{
+    width: 100%;
+    padding: 0 7%;
+    background-color: var(--dark-wine);
+}
+.container {
+    display: flex;
+  }
+  
+#contactInfo,
+#businessHours {
+    flex: 1; 
+    padding-top: 64px;
+    padding-left: 144px;
+    padding-right: 144px;
+    box-sizing: border-box;
+}
+
+#contactInfo,
+#businessHours h2 {
+    font-family: var(--playfair);
+}
+
+#businessHours{
+    padding-right: 464px;
+}
+
+p {
+    padding-top: 4px;
+}
+
+#imagem-vinheiria{
+    padding-top: 64px;
+    padding-left: 64px;
+    width: 1299px;
+    height: auto; 
+}
+
+/* MAPA*/
+
+#txt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 10px 20px 10px;
+}
+#mapa{
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+.rotas{
+    display: block;
+    width: 30%;
+    padding: 20px 10px 20px 10px;
+}
+.rotas input{
+    margin: 20px 10px 20px 10px;
+}
+
