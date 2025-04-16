@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
+    <header style="position: inherit;"> <!--Foi feito um style inline pois o position absolute do header estava quebrando a pagina -->
         <img src="../assets/svgs/logo-icon.svg" alt="Logo">
         <span class="logoTextHeader playfair whiteText">AGNELLO</span>
         <nav>
@@ -21,7 +21,7 @@
             </ul>
         </nav>
     </header>
-    <!-- section1 -->
+    <!-- Card Fileira 1 -->
     <div class="produtos-container-holder">
         <div class="produtos-card">
             <div class="produtos-image-holder">
@@ -48,7 +48,7 @@
             </div>
         </div>
     </div>
-    <!-- section2 -->
+    <!-- Card Fileira 2 -->
     <div class="produtos-container-holder">
         <div class="produtos-card">
             <div class="produtos-image-holder">
@@ -75,7 +75,7 @@
             </div>
         </div>
     </div>
-    <!-- section 3 -->
+    <!-- Card Fileira 3 -->
     <div class="produtos-container-holder">
         <div class="produtos-card">
             <div class="produtos-image-holder">
@@ -101,6 +101,32 @@
                 <span class="playfair">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet sapiente officia !<span>
             </div>
         </div>
+    </div>
+    <!-- Tabela informativa de vinhos -->
+    <div class="produtos-tabela-holder">
+        <h2>Tabela infomativa sobre tipos de vinhos</h2>
+        <table>
+            <tr>
+                <th>Tipo de Vinho</th>
+                <th>Principais Marcas</th>
+                <th>Principais Uvas</th>
+            </tr>
+            <tr>
+                <td>Vinho Tinto</td>
+                <td>Catena, Miolo, Santa Helena, Quinta do Vale Meão, Amancaya, Belmonte, Guatambu, Sacramentos Vinifer, Adolfo Lona</td>
+                <td>Cabernet Sauvignon, Merlot, Pinot Noir, Tempranillo, Malbec</td>
+            </tr>
+            <tr>
+                <td>Vinho Branco</td>
+                <td>Ricciadoro Pinot Grigio, Carmen Discovery Chardonnay, Carta Vieja Sauvignon Blanc, Gazella Vinho Verde, Santa Florentina Torrontés</td>
+                <td>Chardonnay, Sauvignon Blanc, Riesling, Pinot Grigio</td>
+            </tr>
+            <tr>
+                <td>Vinho Rosé</td>
+                <td>Cabernet Sauvignon, Cabernet Franc, Carignan, Cinsault, Grenache, Malbec, Merlot, Pinot Noir, Syrah, Tempranillo</td>
+                <td>Garnacha, Syrah, Pinot Noir</td>
+            </tr>
+        </table>
     </div>
     <footer>
         <div class="left">

@@ -36,3 +36,24 @@
 .produtos-text-holder span{
     font-size: 15px;
 }
+.produtos-tabela-holder{
+    font-family: var(--playfair);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.produtos-tabela-holder h2{
+    margin-bottom: 20px;
+}
+
+.produtos-tabela-holder table{
+    margin: 0 auto;
+    max-width: 600px;
+    border:7px ridge var(--dark-wine);
+}
+
+.produtos-tabela-holder tr,th,td{
+    border: 2px solid var(--dark-wine);
+    padding: 10px;
+
+}
