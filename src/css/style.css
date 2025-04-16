@@ -41,7 +41,7 @@ header {
     height: 7vw;
     background-color: var(--dark-wine);
     padding: 0 7%;
-    position: absolute;
+    position: fixed;
     font-family: sans-serif;
     white-space: nowrap;
     z-index: 1000;
